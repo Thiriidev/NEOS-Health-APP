@@ -1,0 +1,456 @@
+#Admin Dashboard Interphase
+
+<div>
+  <link href="./c_admin-dashbord.css" rel="stylesheet" />
+  <div class="c_admin-dashbord-frame">
+    <img
+      src="./assets/200272.svg"
+      alt="rectangle"
+      width="1099"
+      height="36"
+      class="c_admin-dashbord-rectangle"
+      />
+    <div class="c_admin-dashbord-frame01">
+      <img
+        src="./assets/71053.svg"
+        alt="rectangle"
+        width="534"
+        height="295"
+        class="c_admin-dashbord-rectangle1"
+        />
+      <div class="c_admin-dashbord-text">
+        <p class="c_admin-dashbord-text01">Patients Demografic</p>
+      </div>
+      <div class="c_admin-dashbord-frame02">
+        <div class="c_admin-dashbord-text02">
+          <p class="c_admin-dashbord-text03">Weekly</p>
+        </div>
+        <img
+          src="./assets/23155.svg"
+          alt="instance"
+          width="24.000001049073262"
+          height="24.00000104907332"
+          class="c_admin-dashbord-instance"
+          />
+      </div>
+      <div class="c_admin-dashbord-frame03">
+        <div class="c_admin-dashbord-frame04">
+          <img
+            src="./assets/26172.svg"
+            alt="instance"
+            width="8"
+            height="8"
+            class="c_admin-dashbord-instance01"
+            />
+          <div class="c_admin-dashbord-text04">
+            <p class="c_admin-dashbord-text05">Registered Users</p>
+          </div>
+        </div>
+        <div class="c_admin-dashbord-frame05">
+          <img
+            src="./assets/26175.svg"
+            alt="instance"
+            width="8"
+            height="8"
+            class="c_admin-dashbord-instance02"
+            />
+          <div class="c_admin-dashbord-text06">
+            <p class="c_admin-dashbord-text07">New Users</p>
+          </div>
+        </div>
+        <div class="c_admin-dashbord-frame06">
+          <img
+            src="./assets/26178.svg"
+            alt="instance"
+            width="8"
+            height="8"
+            class="c_admin-dashbord-instance03"
+            />
+          <div class="c_admin-dashbord-text08">
+            <p class="c_admin-dashbord-text09">Visitors</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame07"></div>
+    <div class="c_admin-dashbord-text10">
+      <p class="c_admin-dashbord-text11">CLINICAL RESEARCH MALAYSIA GROUP</p>
+    </div>
+    <div class="c_admin-dashbord-text12">
+      <p class="c_admin-dashbord-text13">CLINICAL TRIAL WEB-CHAIN</p>
+    </div>
+    <div class="c_admin-dashbord-frame08">
+      <img
+        src="./assets/71049.svg"
+        alt="rectangle"
+        width="538"
+        height="200"
+        class="c_admin-dashbord-rectangle2"
+        />
+      <div class="c_admin-dashbord-text14">
+        <p class="c_admin-dashbord-text15">Match Results</p>
+      </div>
+      <div class="c_admin-dashbord-frame09">
+        <div class="c_admin-dashbord-text16">
+          <p class="c_admin-dashbord-text17">2.5k</p>
+        </div>
+        <div class="c_admin-dashbord-text18">
+          <p class="c_admin-dashbord-text19">Active Matches</p>
+        </div>
+      </div>
+      <img
+        src="./assets/71166.svg"
+        alt="ellipse"
+        width="219.919921875"
+        height="111"
+        class="c_admin-dashbord-ellipse"
+        />
+      <img
+        src="./assets/71168.svg"
+        alt="ellipse"
+        width="48.0401611328125"
+        height="72.95541381835938"
+        class="c_admin-dashbord-ellipse1"
+        />
+      <div class="c_admin-dashbord-frame10">
+        <div class="c_admin-dashbord-frame11">
+          <img
+            src="./assets/71171.svg"
+            alt="instance"
+            width="8"
+            height="8"
+            class="c_admin-dashbord-instance04"
+            />
+          <div class="c_admin-dashbord-text20">
+            <p class="c_admin-dashbord-text21">Heigh</p>
+          </div>
+        </div>
+        <div class="c_admin-dashbord-frame12">
+          <img
+            src="./assets/71174.svg"
+            alt="instance"
+            width="8"
+            height="8"
+            class="c_admin-dashbord-instance05"
+            />
+          <div class="c_admin-dashbord-text22">
+            <p class="c_admin-dashbord-text23">Moderate</p>
+          </div>
+        </div>
+        <div class="c_admin-dashbord-frame13">
+          <img
+            src="./assets/71177.svg"
+            alt="instance"
+            width="8"
+            height="8"
+            class="c_admin-dashbord-instance06"
+            />
+          <div class="c_admin-dashbord-text24">
+            <p class="c_admin-dashbord-text25">Low</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/71167.svg"
+        alt="ellipse"
+        width="109.26904296875"
+        height="74.92572021484375"
+        class="c_admin-dashbord-ellipse2"
+        />
+    </div>
+    <div class="c_admin-dashbord-frame14">
+      <div class="c_admin-dashbord-text26">
+        <p class="c_admin-dashbord-text27">Menu</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame15">
+      <img
+        src="./assets/71062.svg"
+        alt="instance"
+        width="20"
+        height="20"
+        class="c_admin-dashbord-instance07"
+        />
+      <div class="c_admin-dashbord-text28">
+        <p class="c_admin-dashbord-text29">Dashboard</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-text30">
+      <p class="c_admin-dashbord-text31">AI Patient Matching System</p>
+    </div>
+    <div class="c_admin-dashbord-text32">
+      <p class="c_admin-dashbord-text33">
+        Patient Pre-Screening &amp; Analytics
+      </p>
+    </div>
+    <div class="c_admin-dashbord-text34">
+      <p class="c_admin-dashbord-text35">Clinical Trial Management Panel</p>
+    </div>
+    <div class="c_admin-dashbord-frame16">
+      <img
+        src="./assets/71081.svg"
+        alt="instance"
+        width="20"
+        height="20"
+        class="c_admin-dashbord-instance08"
+        />
+      <div class="c_admin-dashbord-text36">
+        <p class="c_admin-dashbord-text37">File manager</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame17">
+      <img
+        src="./assets/71090.svg"
+        alt="instance"
+        width="20"
+        height="20"
+        class="c_admin-dashbord-instance09"
+        />
+      <div class="c_admin-dashbord-text38">
+        <p class="c_admin-dashbord-text39">Forms</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame18">
+      <img
+        src="./assets/71093.svg"
+        alt="instance"
+        width="20"
+        height="20"
+        class="c_admin-dashbord-instance10"
+        />
+      <div class="c_admin-dashbord-text40">
+        <p class="c_admin-dashbord-text41">Authentication</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame19"></div>
+    <img
+      src="./assets/200247.jpg"
+      alt="rectangle"
+      width="254"
+      height="118"
+      class="c_admin-dashbord-rectangle3"
+      />
+  </div>
+</div>
+
+#AI Shortlisted Candidate Interphase
+
+<div>
+  <link href="./c_admin-dashbord.css" rel="stylesheet" />
+  <div class="c_admin-dashbord-frame">
+    <img
+      src="./assets/2003218.svg"
+      alt="rectangle"
+      width="1099"
+      height="36"
+      class="c_admin-dashbord-rectangle"
+      />
+    <div class="c_admin-dashbord-text">
+      <p class="c_admin-dashbord-text01">CLINICAL RESEARCH MALAYSIA GROUP</p>
+    </div>
+    <div class="c_admin-dashbord-text02">
+      <p class="c_admin-dashbord-text03">CLINICAL TRIAL WEB-CHAIN</p>
+    </div>
+    <div class="c_admin-dashbord-frame01">
+      <div class="c_admin-dashbord-text04">
+        <p class="c_admin-dashbord-text05">Menu</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame02">
+      <img
+        src="./assets/2003334.svg"
+        alt="instance"
+        width="20"
+        height="20"
+        class="c_admin-dashbord-instance"
+        />
+      <div class="c_admin-dashbord-text06">
+        <p class="c_admin-dashbord-text07">Dashboard</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-text08">
+      <p class="c_admin-dashbord-text09">AI Patient Matching System</p>
+    </div>
+    <div class="c_admin-dashbord-text10">
+      <p class="c_admin-dashbord-text11">
+        Patient Pre-Screening &amp; Analytics
+      </p>
+    </div>
+    <div class="c_admin-dashbord-text12">
+      <p class="c_admin-dashbord-text13">Clinical Trial Management Panel</p>
+    </div>
+    <div class="c_admin-dashbord-frame03">
+      <img
+        src="./assets/2003340.svg"
+        alt="instance"
+        width="20"
+        height="20"
+        class="c_admin-dashbord-instance01"
+        />
+      <div class="c_admin-dashbord-text14">
+        <p class="c_admin-dashbord-text15">File manager</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame04">
+      <img
+        src="./assets/2003343.svg"
+        alt="instance"
+        width="20"
+        height="20"
+        class="c_admin-dashbord-instance02"
+        />
+      <div class="c_admin-dashbord-text16">
+        <p class="c_admin-dashbord-text17">Forms</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame05">
+      <img
+        src="./assets/2003346.svg"
+        alt="instance"
+        width="20"
+        height="20"
+        class="c_admin-dashbord-instance03"
+        />
+      <div class="c_admin-dashbord-text18">
+        <p class="c_admin-dashbord-text19">Authentication</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame06"></div>
+    <div class="c_admin-dashbord-text20">
+      <p class="c_admin-dashbord-text21">Advanced Filter</p>
+    </div>
+    <div class="c_admin-dashbord-text22">
+      <p class="c_admin-dashbord-text23">Total : 48 Matches</p>
+    </div>
+    <img
+      src="./assets/2003368.jpg"
+      alt="rectangle"
+      width="254"
+      height="118"
+      class="c_admin-dashbord-rectangle1"
+      />
+    <div class="c_admin-dashbord-text24">
+      <p class="c_admin-dashbord-text25">Access &amp; Role Management</p>
+    </div>
+    <img
+      src="./assets/2003815.svg"
+      alt="instance"
+      width="560"
+      height="254"
+      class="c_admin-dashbord-instance04"
+      />
+    <img
+      src="./assets/2003816.svg"
+      alt="instance"
+      width="560"
+      height="254"
+      class="c_admin-dashbord-instance05"
+      />
+    <div class="c_admin-dashbord-instance06">
+      <img
+        src="./assets/I2003817059.svg"
+        alt="ellipse"
+        width="39.33154296875"
+        height="86.79220581054688"
+        class="c_admin-dashbord-ellipse"
+        />
+      <img
+        src="./assets/I2003817060.svg"
+        alt="ellipse"
+        width="4.944091796875"
+        height="4.511993408203125"
+        class="c_admin-dashbord-ellipse1"
+        />
+      <div class="c_admin-dashbord-instance07">
+        <div class="c_admin-dashbord-text26">
+          <p class="c_admin-dashbord-text27">40%</p>
+        </div>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame07">
+      <div class="c_admin-dashbord-text28">
+        <p class="c_admin-dashbord-text29">Rajesh Kumar A/L Nathan</p>
+      </div>
+      <div class="c_admin-dashbord-text30">
+        <p class="c_admin-dashbord-text31">Male.39</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-text32">
+      <p class="c_admin-dashbord-text33">6.</p>
+    </div>
+    <div class="c_admin-dashbord-frame08">
+      <div class="c_admin-dashbord-text34">
+        <p class="c_admin-dashbord-text35">VIEW DETAILS</p>
+      </div>
+    </div>
+    <img
+      src="./assets/2003824.png"
+      alt="ellipse"
+      width="91"
+      height="94"
+      class="c_admin-dashbord-ellipse2"
+      />
+    <img
+      src="./assets/2003884.svg"
+      alt="instance"
+      width="561"
+      height="254"
+      class="c_admin-dashbord-instance08"
+      />
+    <img
+      src="./assets/2003885.svg"
+      alt="instance"
+      width="561"
+      height="254"
+      class="c_admin-dashbord-instance09"
+      />
+    <div class="c_admin-dashbord-instance10">
+      <img
+        src="./assets/I2003886059.svg"
+        alt="ellipse"
+        width="59.515625"
+        height="88.43856811523438"
+        class="c_admin-dashbord-ellipse3"
+        />
+      <img
+        src="./assets/I2003886060.svg"
+        alt="ellipse"
+        width="4.944091796875"
+        height="4.511993408203125"
+        class="c_admin-dashbord-ellipse4"
+        />
+      <div class="c_admin-dashbord-instance11">
+        <div class="c_admin-dashbord-text36">
+          <p class="c_admin-dashbord-text37">45%</p>
+        </div>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame09">
+      <div class="c_admin-dashbord-text38">
+        <p class="c_admin-dashbord-text39">Ahmad Firdaus Bin Razak</p>
+      </div>
+      <div class="c_admin-dashbord-text40">
+        <p class="c_admin-dashbord-text41">Male.45</p>
+      </div>
+    </div>
+    <div class="c_admin-dashbord-frame10">
+      <div class="c_admin-dashbord-text42">
+        <p class="c_admin-dashbord-text43">VIEW DETAILS</p>
+      </div>
+    </div>
+    <img
+      src="./assets/2003892.png"
+      alt="ellipse"
+      width="91"
+      height="94"
+      class="c_admin-dashbord-ellipse5"
+      />
+    <img
+      src="./assets/2003937.svg"
+      alt="frame"
+      width="24"
+      height="24"
+      class="c_admin-dashbord-frame11"
+      />
+  </div>
+</div>
