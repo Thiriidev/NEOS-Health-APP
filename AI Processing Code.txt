@@ -1,0 +1,307 @@
+﻿##Google Colab Code:
+
+# Google Colab Version: AI-Powered Blood Test Analysis with Blockchain Security
+
+
+# Install dependencies
+!pip install pytesseract pdfplumber fitz openai web3 flask numpy pandas requests
+
+
+import fitz  # PyMuPDF for extracting text from PDFs
+import pytesseract  # OCR for scanned images
+import pdfplumber  # Extract tables from PDFs
+from PIL import Image
+import io
+import requests
+import json
+import numpy as np
+import pandas as pd
+from web3 import Web3  # Blockchain integration
+from flask import Flask, request, jsonify  # Web UI layer
+
+
+# -----------------------------------
+# Medical Data Extraction from PDF
+# -----------------------------------
+def extract_text_from_pdf(pdf_path):
+    """Extracts text from digital and scanned PDFs."""
+    text = ""
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            text += page.extract_text() or ""
+    
+    if not text.strip():  # If no text, assume it's a scanned PDF
+        doc = fitz.open(pdf_path)
+        for page in doc:
+            pix = page.get_pixmap()
+            img = Image.open(io.BytesIO(pix.tobytes()))
+            text += pytesseract.image_to_string(img)
+    
+    return text
+
+
+# -----------------------------------
+# IBM Watson Medical AI Analysis
+# -----------------------------------
+IBM_WATSON_URL = "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/YOUR_INSTANCE_ID"
+IBM_API_KEY = "YOUR_IBM_WATSON_API_KEY"
+
+
+def analyze_with_ibm(text):
+    """Calls IBM Watson API for medical data interpretation."""
+    headers = {"Content-Type": "application/json"}
+    data = {"text": text, "features": {"entities": {"model": "YOUR_WATSON_MODEL_ID"}}}
+    response = requests.post(f"{IBM_WATSON_URL}/v1/analyze?version=2022-04-07", headers=headers, json=data, auth=("apikey", IBM_API_KEY))
+    return response.json()
+
+
+# -----------------------------------
+# OpenAI GPT for Chatbot Explanation
+# -----------------------------------
+OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"
+
+
+def chat_with_gpt(user_query):
+    """Interacts with OpenAI GPT for user queries."""
+    headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
+    data = {"model": "gpt-4", "messages": [{"role": "user", "content": user_query}]}
+    response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data)
+    return response.json()["choices"][0]["message"]["content"]
+
+
+# -----------------------------------
+# Simple Blockchain Layer for Security
+# -----------------------------------
+BLOCKCHAIN_RPC = "https://ropsten.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+web3 = Web3(Web3.HTTPProvider(BLOCKCHAIN_RPC))
+
+
+# Deploy a simple blockchain contract (for security verification, separate from AI code)
+def store_hash_on_blockchain(data_hash):
+    """Stores the hash of medical data on blockchain for tamper-proof security."""
+    if web3.isConnected():
+        tx_hash = web3.keccak(text=data_hash).hex()
+        return {"status": "Stored on Blockchain", "hash": tx_hash}
+    return {"status": "Blockchain Unavailable"}
+
+
+# -----------------------------------
+# Flask Web UI for Report Visualization (Mimicking the Reference UI)
+# -----------------------------------
+app = Flask(__name__)
+
+
+@app.route('/analyze', methods=['POST'])
+def analyze_report():
+    pdf_file = request.files['file']
+    pdf_path = "temp_report.pdf"
+    pdf_file.save(pdf_path)
+    
+    extracted_text = extract_text_from_pdf(pdf_path)
+    ibm_result = analyze_with_ibm(extracted_text)
+    blockchain_status = store_hash_on_blockchain(extracted_text)
+    
+    return jsonify({
+        "Extracted Data": extracted_text[:500],  # Show first 500 characters
+        "IBM Analysis": ibm_result,
+        "Blockchain Security": blockchain_status
+    })
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##PyCharm:
+
+
+# PyCharm Version: AI-Powered Blood Test Analysis with Blockchain Security
+
+
+# Install dependencies (run this in terminal if missing)
+# pip install pytesseract pdfplumber fitz openai web3 flask numpy pandas requests
+
+
+import fitz  # PyMuPDF for extracting text from PDFs
+import pytesseract  # OCR for scanned images
+import pdfplumber  # Extract tables from PDFs
+from PIL import Image
+import io
+import requests
+import json
+import numpy as np
+import pandas as pd
+from web3 import Web3  # Blockchain integration
+from flask import Flask, request, jsonify, render_template  # Web UI layer
+
+
+# -----------------------------------
+# Medical Data Extraction from PDF
+# -----------------------------------
+def extract_text_from_pdf(pdf_path):
+    """Extracts text from digital and scanned PDFs."""
+    text = ""
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            text += page.extract_text() or ""
+    
+    if not text.strip():  # If no text, assume it's a scanned PDF
+        doc = fitz.open(pdf_path)
+        for page in doc:
+            pix = page.get_pixmap()
+            img = Image.open(io.BytesIO(pix.tobytes()))
+            text += pytesseract.image_to_string(img)
+    
+    return text
+
+
+# -----------------------------------
+# IBM Watson Medical AI Analysis
+# -----------------------------------
+IBM_WATSON_URL = "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/YOUR_INSTANCE_ID"
+IBM_API_KEY = "YOUR_IBM_WATSON_API_KEY"
+
+
+def analyze_with_ibm(text):
+    """Calls IBM Watson API for medical data interpretation."""
+    headers = {"Content-Type": "application/json"}
+    data = {"text": text, "features": {"entities": {"model": "YOUR_WATSON_MODEL_ID"}}}
+    response = requests.post(f"{IBM_WATSON_URL}/v1/analyze?version=2022-04-07", headers=headers, json=data, auth=("apikey", IBM_API_KEY))
+    return response.json()
+
+
+# -----------------------------------
+# OpenAI GPT for Chatbot Explanation
+# -----------------------------------
+OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"
+
+
+def chat_with_gpt(user_query):
+    """Interacts with OpenAI GPT for user queries."""
+    headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
+    data = {"model": "gpt-4", "messages": [{"role": "user", "content": user_query}]}
+    response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data)
+    return response.json()["choices"][0]["message"]["content"]
+
+
+# -----------------------------------
+# Simple Blockchain Layer for Security
+# -----------------------------------
+BLOCKCHAIN_RPC = "https://ropsten.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+web3 = Web3(Web3.HTTPProvider(BLOCKCHAIN_RPC))
+
+
+def store_hash_on_blockchain(data_hash):
+    """Stores the hash of medical data on blockchain for tamper-proof security."""
+    if web3.isConnected():
+        tx_hash = web3.keccak(text=data_hash).hex()
+        return {"status": "Stored on Blockchain", "hash": tx_hash}
+    return {"status": "Blockchain Unavailable"}
+
+
+# -----------------------------------
+# Flask Web UI for Report Visualization
+# -----------------------------------
+app = Flask(__name__)
+
+
+@app.route('/')
+def home():
+    return render_template("index.html")
+
+
+@app.route('/analyze', methods=['POST'])
+def analyze_report():
+    pdf_file = request.files['file']
+    pdf_path = "temp_report.pdf"
+    pdf_file.save(pdf_path)
+    
+    extracted_text = extract_text_from_pdf(pdf_path)
+    ibm_result = analyze_with_ibm(extracted_text)
+    blockchain_status = store_hash_on_blockchain(extracted_text)
+    
+    return jsonify({
+        "Extracted Data": extracted_text[:500],  # Show first 500 characters
+        "IBM Analysis": ibm_result,
+        "Blockchain Security": blockchain_status
+    })
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
