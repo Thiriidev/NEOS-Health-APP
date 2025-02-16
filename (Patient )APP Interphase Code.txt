@@ -1,0 +1,989 @@
+﻿#Register Page Interphase 
+
+<div>
+  <link href="./c_profile.css" rel="stylesheet" />
+  <div class="c_profile-frame">
+    <img
+      src="./assets/20073738.svg"
+      alt="rectangle"
+      width="360"
+      height="28"
+      class="c_profile-rectangle"
+      />
+    <div class="c_profile-text"><p class="c_profile-text01">16:04</p></div>
+    <img
+      src="./assets/20073740.svg"
+      alt="vector"
+      width="13"
+      height="11"
+      class="c_profile-vector"
+      />
+    <img
+      src="./assets/20073741.svg"
+      alt="vector"
+      width="17.000091552734375"
+      height="10"
+      class="c_profile-vector1"
+      />
+    <div class="c_profile-text02"><p class="c_profile-text03">Mrs Siti</p></div>
+    <div class="c_profile-text04"><p class="c_profile-text05">Profile</p></div>
+    <div class="c_profile-text06"><p class="c_profile-text07">Favorite</p></div>
+    <div class="c_profile-text08">
+      <p class="c_profile-text09">Payment Method</p>
+    </div>
+    <div class="c_profile-text10">
+      <p class="c_profile-text11">Privacy Policy</p>
+    </div>
+    <div class="c_profile-text12"><p class="c_profile-text13">Settings</p></div>
+    <div class="c_profile-text14"><p class="c_profile-text15">Help</p></div>
+    <div class="c_profile-text16"><p class="c_profile-text17">Logout</p></div>
+    <img
+      src="./assets/20073753.svg"
+      alt="rectangle"
+      width="298"
+      height="48"
+      class="c_profile-rectangle1"
+      />
+    <div class="c_profile-text18">
+      <p class="c_profile-text19">my Profile</p>
+    </div>
+    <img
+      src="./assets/20073755.svg"
+      alt="vector"
+      width="10.000015258789062"
+      height="16"
+      class="c_profile-vector2"
+      />
+    <img
+      src="./assets/20073756.svg"
+      alt="vector"
+      width="10.00006103515625"
+      height="14"
+      class="c_profile-vector3"
+      />
+    <img
+      src="./assets/20073757.svg"
+      alt="vector"
+      width="10.00006103515625"
+      height="14"
+      class="c_profile-vector4"
+      />
+    <img
+      src="./assets/20073758.svg"
+      alt="vector"
+      width="10.000091552734375"
+      height="13"
+      class="c_profile-vector5"
+      />
+    <img
+      src="./assets/20073759.svg"
+      alt="vector"
+      width="10.000091552734375"
+      height="13"
+      class="c_profile-vector6"
+      />
+    <img
+      src="./assets/20073760.svg"
+      alt="vector"
+      width="10.00006103515625"
+      height="14"
+      class="c_profile-vector7"
+      />
+    <img
+      src="./assets/20073761.svg"
+      alt="vector"
+      width="10.00006103515625"
+      height="14"
+      class="c_profile-vector8"
+      />
+    <div class="c_profile-frame1"></div>
+  </div>
+</div>
+
+
+
+#Profile Interphase
+
+.c_profile-frame {
+  width: 100%;
+  overflow: hidden;
+  max-width: 360px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-radius: 30px 30px 30px 30px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+
+
+.c_profile-rectangle {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  max-width: 360px;
+}
+
+
+.c_profile-text,
+.c_profile-text01 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+
+.c_profile-text {
+  width: 100%;
+  max-width: 30px;
+  min-height: 14px;
+}
+
+
+.c_profile-text01 {
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-family: "League Spartan",sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.c_profile-vector,
+.c_profile-vector1 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  max-width: 13px;
+}
+
+
+.c_profile-vector1 {
+  max-width: 17.000091552734375px;
+  max-height: 10px;
+}
+
+
+.c_profile-text02,
+.c_profile-text03 {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+.c_profile-text02 {
+  width: 100%;
+  max-width: 118px;
+  min-height: 14px;
+}
+
+
+.c_profile-text03 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "League Spartan",sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.c_profile-text04,
+.c_profile-text05 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+
+.c_profile-text04 {
+  width: 100%;
+  max-width: 88px;
+  min-height: 14px;
+}
+
+
+.c_profile-text05 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "League Spartan",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.c_profile-text06 {
+  width: 100%;
+  max-width: 88px;
+  min-height: 14px;
+}
+
+
+.c_profile-text06,
+.c_profile-text07,
+.c_profile-text08 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+
+.c_profile-text07 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "League Spartan",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.c_profile-text08 {
+  width: 100%;
+  max-width: 152px;
+  min-height: 14px;
+}
+
+
+.c_profile-text09 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "League Spartan",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.c_profile-text09,
+.c_profile-text10,
+.c_profile-text11 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+
+.c_profile-text10 {
+  width: 100%;
+  max-width: 130px;
+  min-height: 14px;
+}
+
+
+.c_profile-text11 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "League Spartan",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.c_profile-text12 {
+  width: 100%;
+  max-width: 84px;
+  min-height: 14px;
+}
+
+
+.c_profile-text12,
+.c_profile-text13,
+.c_profile-text14 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+
+.c_profile-text13 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "League Spartan",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.c_profile-text14 {
+  width: 100%;
+  max-width: 51px;
+  min-height: 14px;
+}
+
+
+.c_profile-text15 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "League Spartan",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.c_profile-text15,
+.c_profile-text16,
+.c_profile-text17 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+
+.c_profile-text16 {
+  width: 100%;
+  max-width: 69px;
+  min-height: 14px;
+}
+
+
+.c_profile-text17 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "League Spartan",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.c_profile-rectangle1 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  max-width: 298px;
+  border-radius: 24px 24px 24px 24px;
+}
+
+
+.c_profile-text18,
+.c_profile-text19 {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+.c_profile-text18 {
+  width: 100%;
+  max-width: 121px;
+  min-height: 14px;
+}
+
+
+.c_profile-text19 {
+  color: #2260ff;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "League Spartan",sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.c_profile-vector2,
+.c_profile-vector3,
+.c_profile-vector4 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  max-width: 10.000015258789062px;
+  transform: rotate(-90deg);
+  max-height: 16px;
+}
+
+
+.c_profile-vector3,
+.c_profile-vector4 {
+  max-width: 10.00006103515625px;
+  transform: rotate(90deg);
+  max-height: 14px;
+}
+
+
+.c_profile-vector5,
+.c_profile-vector6,
+.c_profile-vector7,
+.c_profile-vector8 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  max-width: 10.000091552734375px;
+  transform: rotate(90deg);
+  max-height: 13px;
+}
+
+
+.c_profile-vector7,
+.c_profile-vector8 {
+  max-width: 10.00006103515625px;
+  max-height: 14px;
+}
+
+
+.c_profile-frame1 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 40px;
+  box-sizing: border-box;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+#Main Dashboard Interphase
+
+<div>
+  <link href="./c_main-dash.css" rel="stylesheet" />
+  <div class="c_main-dash-frame">
+    <img
+      src="./assets/20073799.svg"
+      alt="rectangle"
+      width="360"
+      height="28"
+      class="c_main-dash-rectangle"
+      />
+    <div class="c_main-dash-text"><p class="c_main-dash-text01">16:04</p></div>
+    <img
+      src="./assets/20073801.svg"
+      alt="vector"
+      width="13"
+      height="11"
+      class="c_main-dash-vector"
+      />
+    <img
+      src="./assets/20073802.svg"
+      alt="vector"
+      width="17.00006103515625"
+      height="10"
+      class="c_main-dash-vector01"
+      />
+    <img
+      src="./assets/20073806.svg"
+      alt="rectangle"
+      width="360"
+      height="168"
+      class="c_main-dash-rectangle1"
+      />
+    <div class="c_main-dash-text02">
+      <p class="c_main-dash-text03">AI Analyser</p>
+    </div>
+    <div class="c_main-dash-text04">
+      <p class="c_main-dash-text05">Reports Drive</p>
+    </div>
+    <div class="c_main-dash-text06">
+      <p class="c_main-dash-text07">Medical History</p>
+    </div>
+    <div class="c_main-dash-text08">
+      <p class="c_main-dash-text09">Doctor’s Notes</p>
+    </div>
+    <div class="c_main-dash-text10">
+      <p class="c_main-dash-text11">Calender</p>
+    </div>
+    <img
+      src="./assets/20073812.svg"
+      alt="vector"
+      width="14.0001220703125"
+      height="10"
+      class="c_main-dash-vector02"
+      />
+    <img
+      src="./assets/20073813.svg"
+      alt="vector"
+      width="14.0001220703125"
+      height="10"
+      class="c_main-dash-vector03"
+      />
+    <img
+      src="./assets/20073814.svg"
+      alt="vector"
+      width="13.000244140625"
+      height="10"
+      class="c_main-dash-vector04"
+      />
+    <img
+      src="./assets/20073815.svg"
+      alt="vector"
+      width="13.000244140625"
+      height="10"
+      class="c_main-dash-vector05"
+      />
+    <img
+      src="./assets/20073816.svg"
+      alt="vector"
+      width="14.0001220703125"
+      height="10"
+      class="c_main-dash-vector06"
+      />
+    <img
+      src="./assets/20073817.svg"
+      alt="ellipse"
+      width="40"
+      height="40"
+      class="c_main-dash-ellipse"
+      />
+    <img
+      src="./assets/20073818.svg"
+      alt="ellipse"
+      width="40"
+      height="40"
+      class="c_main-dash-ellipse1"
+      />
+    <img
+      src="./assets/20073819.svg"
+      alt="ellipse"
+      width="40"
+      height="40"
+      class="c_main-dash-ellipse2"
+      />
+    <img
+      src="./assets/20073820.svg"
+      alt="ellipse"
+      width="40"
+      height="40"
+      class="c_main-dash-ellipse3"
+      />
+    <img
+      src="./assets/20073821.svg"
+      alt="ellipse"
+      width="40"
+      height="40"
+      class="c_main-dash-ellipse4"
+      />
+    <img
+      src="./assets/20073822.svg"
+      alt="rectangle"
+      width="300"
+      height="38"
+      class="c_main-dash-rectangle2"
+      />
+    <div class="c_main-dash-text12">
+      <p class="c_main-dash-text13">Contact us</p>
+    </div>
+    <div class="c_main-dash-text14">
+      <p class="c_main-dash-text15">Main Dash</p>
+    </div>
+    <div class="c_main-dash-text16">
+      <p class="c_main-dash-text17">What are you looking for ?</p>
+    </div>
+    <div class="c_main-dash-text18">
+      <p class="c_main-dash-text19">Search...</p>
+    </div>
+    <img
+      src="./assets/20073827.svg"
+      alt="vector"
+      width="10"
+      height="16"
+      class="c_main-dash-vector07"
+      />
+    <img
+      src="./assets/20073828.svg"
+      alt="vector"
+      width="16"
+      height="19"
+      class="c_main-dash-vector08"
+      />
+    <img
+      src="./assets/20073834.svg"
+      alt="vector"
+      width="14.0001220703125"
+      height="10"
+      class="c_main-dash-vector09"
+      />
+    <img
+      src="./assets/20073835.svg"
+      alt="ellipse"
+      width="40"
+      height="40"
+      class="c_main-dash-ellipse5"
+      />
+    <div class="c_main-dash-text20">
+      <p class="c_main-dash-text21">LOCK ID</p>
+    </div>
+    <img
+      src="./assets/20073837.svg"
+      alt="vector"
+      width="14.0001220703125"
+      height="10"
+      class="c_main-dash-vector10"
+      />
+    <img
+      src="./assets/20073838.svg"
+      alt="ellipse"
+      width="40"
+      height="40"
+      class="c_main-dash-ellipse6"
+      />
+    <img
+      src="./assets/20073843.svg"
+      alt="vector"
+      width="14.0001220703125"
+      height="10"
+      class="c_main-dash-vector11"
+      />
+    <img
+      src="./assets/20073844.svg"
+      alt="ellipse"
+      width="40"
+      height="40"
+      class="c_main-dash-ellipse7"
+      />
+    <img
+      src="./assets/20073845.svg"
+      alt="frame"
+      width="24"
+      height="24"
+      class="c_main-dash-frame1"
+      />
+    <img
+      src="./assets/20073847.svg"
+      alt="frame"
+      width="24"
+      height="24"
+      class="c_main-dash-frame2"
+      />
+    <img
+      src="./assets/20073849.svg"
+      alt="vector"
+      width="20"
+      height="16"
+      class="c_main-dash-vector12"
+      />
+    <img
+      src="./assets/20073850.svg"
+      alt="frame"
+      width="24"
+      height="24"
+      class="c_main-dash-frame3"
+      />
+    <img
+      src="./assets/20073852.svg"
+      alt="frame"
+      width="24.000001907348633"
+      height="24.00000762939453"
+      class="c_main-dash-frame4"
+      />
+    <img
+      src="./assets/20073854.svg"
+      alt="frame"
+      width="24"
+      height="24"
+      class="c_main-dash-frame5"
+      />
+    <div class="c_main-dash-frame6">
+      <div class="c_main-dash-text22">
+        <p class="c_main-dash-text23">Generate Code</p>
+      </div>
+      <img
+        src="./assets/20073865.svg"
+        alt="line"
+        width="32"
+        height="1"
+        class="c_main-dash-line"
+        />
+    </div>
+  </div>
+</div>
+
+
+
+
+#AI Analyser Interphase 
+
+
+
+<div>
+  <link href="./c_upload-a-analyser.css" rel="stylesheet" />
+  <div class="c_upload-a-analyser-frame">
+    <img
+      src="./assets/20073898.svg"
+      alt="rectangle"
+      width="360"
+      height="28"
+      class="c_upload-a-analyser-rectangle"
+      />
+    <div class="c_upload-a-analyser-text">
+      <p class="c_upload-a-analyser-text01">16:04</p>
+    </div>
+    <img
+      src="./assets/20073900.svg"
+      alt="vector"
+      width="13"
+      height="11"
+      class="c_upload-a-analyser-vector"
+      />
+    <img
+      src="./assets/20073901.svg"
+      alt="vector"
+      width="17"
+      height="10"
+      class="c_upload-a-analyser-vector1"
+      />
+    <img
+      src="./assets/20073905.svg"
+      alt="rectangle"
+      width="360"
+      height="97"
+      class="c_upload-a-analyser-rectangle1"
+      />
+    <img
+      src="./assets/20073906.svg"
+      alt="ellipse"
+      width="40"
+      height="40"
+      class="c_upload-a-analyser-ellipse"
+      />
+    <img
+      src="./assets/20073907.svg"
+      alt="rectangle"
+      width="300"
+      height="38"
+      class="c_upload-a-analyser-rectangle2"
+      />
+    <img
+      src="./assets/20073908.svg"
+      alt="vector"
+      width="16"
+      height="19"
+      class="c_upload-a-analyser-vector2"
+      />
+    <div class="c_upload-a-analyser-text02">
+      <p class="c_upload-a-analyser-text03">AI Analyser</p>
+    </div>
+    <div class="c_upload-a-analyser-text04">
+      <p class="c_upload-a-analyser-text05">Document Type</p>
+    </div>
+    <img
+      src="./assets/20073911.svg"
+      alt="vector"
+      width="10"
+      height="16"
+      class="c_upload-a-analyser-vector3"
+      />
+    <img
+      src="./assets/20073912.svg"
+      alt="frame"
+      width="24"
+      height="24"
+      class="c_upload-a-analyser-frame01"
+      />
+    <div class="c_upload-a-analyser-instance">
+      <div class="c_upload-a-analyser-frame02">
+        <div class="c_upload-a-analyser-frame03">
+          <div class="c_upload-a-analyser-text06">
+            <p class="c_upload-a-analyser-text07">Upload Document</p>
+          </div>
+          <div class="c_upload-a-analyser-text08">
+            <p class="c_upload-a-analyser-text09">
+              Please upload files in pdf, docx,doc or png format and make sure
+              the file size is under 50 MB.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="c_upload-a-analyser-frame04">
+        <div class="c_upload-a-analyser-frame05">
+          <div class="c_upload-a-analyser-frame06">
+            <img
+              src="./assets/I20073914186005.svg"
+              alt="frame"
+              width="43"
+              height="43"
+              class="c_upload-a-analyser-frame07"
+              />
+            <div class="c_upload-a-analyser-text10">
+              <p class="c_upload-a-analyser-text11">Drop file or Browse</p>
+            </div>
+            <div class="c_upload-a-analyser-text12">
+              <p class="c_upload-a-analyser-text13"><br /></p>
+            </div>
+          </div>
+          <div class="c_upload-a-analyser-frame08">
+            <div class="c_upload-a-analyser-frame09">
+              <img
+                src="./assets/I20073914181082.svg"
+                alt="frame"
+                width="20"
+                height="20"
+                class="c_upload-a-analyser-frame10"
+                />
+              <div class="c_upload-a-analyser-text14">
+                <p class="c_upload-a-analyser-text15">Browse</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c_upload-a-analyser-frame11">
+        <div class="c_upload-a-analyser-frame12">
+          <div class="c_upload-a-analyser-text16">
+            <p class="c_upload-a-analyser-text17">Cancel</p>
+          </div>
+        </div>
+        <div class="c_upload-a-analyser-frame13">
+          <div class="c_upload-a-analyser-frame14">
+            <div class="c_upload-a-analyser-text18">
+              <p class="c_upload-a-analyser-text19">Done</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+#AI Analysed Result Interphase
+
+<div>
+  <link href="./c_a--analyser.css" rel="stylesheet" />
+  <div class="c_a--analyser-frame">
+    <img
+      src="./assets/20073873.svg"
+      alt="rectangle"
+      width="360"
+      height="28"
+      class="c_a--analyser-rectangle"
+      />
+    <div class="c_a--analyser-text">
+      <p class="c_a--analyser-text1">16:04</p>
+    </div>
+    <img
+      src="./assets/20073875.svg"
+      alt="vector"
+      width="13"
+      height="11"
+      class="c_a--analyser-vector"
+      />
+    <img
+      src="./assets/20073876.svg"
+      alt="vector"
+      width="17"
+      height="10"
+      class="c_a--analyser-vector1"
+      />
+    <img
+      src="./assets/20073880.svg"
+      alt="rectangle"
+      width="360"
+      height="97"
+      class="c_a--analyser-rectangle1"
+      />
+    <img
+      src="./assets/20073881.svg"
+      alt="ellipse"
+      width="40"
+      height="40"
+      class="c_a--analyser-ellipse"
+      />
+    <div class="c_a--analyser-text2">
+      <p class="c_a--analyser-text3">AI Analyser</p>
+    </div>
+    <img
+      src="./assets/20073883.svg"
+      alt="vector"
+      width="10"
+      height="16"
+      class="c_a--analyser-vector2"
+      />
+    <img
+      src="./assets/20073884.svg"
+      alt="frame"
+      width="24"
+      height="24"
+      class="c_a--analyser-frame1"
+      />
+    <img
+      src="./assets/20073886.jpg"
+      alt="rectangle"
+      width="304"
+      height="173"
+      class="c_a--analyser-rectangle2"
+      />
+    <img
+      src="./assets/20073887.jpg"
+      alt="rectangle"
+      width="324"
+      height="126"
+      class="c_a--analyser-rectangle3"
+      />
+    <img
+      src="./assets/20073888.jpg"
+      alt="rectangle"
+      width="309"
+      height="141"
+      class="c_a--analyser-rectangle4"
+      />
+    <img
+      src="./assets/20073889.svg"
+      alt="vector"
+      width="14"
+      height="10"
+      class="c_a--analyser-vector3"
+      />
+    <img
+      src="./assets/20073891.svg"
+      alt="vector"
+      width="306"
+      height="46"
+      class="c_a--analyser-vector4"
+      />
+    <div class="c_a--analyser-text4">
+      <p class="c_a--analyser-text5">AI Suggestions</p>
+    </div>
+    <div class="c_a--analyser-text6">
+      <p class="c_a--analyser-text7">
+        Consider increasing daily water intake to stay well-hydrated
+      </p>
+      <p class="c_a--analyser-text8">and support overall health</p>
+    </div>
+    <img
+      src="./assets/20073894.svg"
+      alt="frame"
+      width="8"
+      height="9"
+      class="c_a--analyser-frame2"
+      />
+    <img
+      src="./assets/20073890.jpg"
+      alt="rectangle"
+      width="21"
+      height="14"
+      class="c_a--analyser-rectangle5"
+      />
+  </div>
+</div>
